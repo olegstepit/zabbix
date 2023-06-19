@@ -23,7 +23,7 @@ pipeline  {
         stage("Work") {
             steps {
                 sh '''
-                cd /home/got/test
+                cd /home/got/zabbix
                 docker-compose up -d
                 '''
             }
