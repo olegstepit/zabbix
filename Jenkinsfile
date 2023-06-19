@@ -16,7 +16,7 @@ pipeline  {
             steps {
                 sh '''
                 cd /home/got/
-                git clone https://github.com/Makson8286/test           
+                git clone  https://github.com/olegstepit/zabbix.git           
                 '''
             }
         }    
